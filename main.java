@@ -17,5 +17,10 @@ public static void main(String[] args) {
     Primo primo = new Primo();
     System.out.println("Primo:");
     primo.CalcularPrimo(29, false);
+
+    //Calculando Fatorial:
+    Fatorial fatorial = new Fatorial();
+    System.out.println("Fatorial:");
+    fatorial.CalcularFatorial(0, 1, 8);
     }
 }
